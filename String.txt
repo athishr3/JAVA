@@ -1,0 +1,11 @@
+public class Main
+{
+	public static void main(String[] args) {
+	    //using literal //string Pool
+	String s1="hello";
+	    //using new keyword //heap memory //prevent duplication //slower
+	String s2=new String("Hello");
+	System.out.println(s1 == s2);
+	System.out.println(s1.equals(s2));
+	}
+}
