@@ -1,0 +1,25 @@
+class Main  {
+   public static void main(String[] args) { 
+   Account ac=new Account("Athish",4000);
+   System.out.println("name:"+ac.getAccholder());
+   System.out.println("name:"+ac.getBalance());
+   }
+}
+   
+class Account{
+    private String Accholder;
+    private int Balance;
+    
+    Account(String Accholder,int Balance){
+        
+        this.Accholder=Accholder;
+        this.Balance=Balance;
+    
+   }
+   public String getAccholder(){ 
+       return Accholder;
+   }
+   public int getBalance(){
+         return Balance;
+}
+}
