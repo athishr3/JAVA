@@ -1,0 +1,19 @@
+class Main  {
+   public static void main(String[] args) { 
+   Sample ref=new Sample("Porshe","911");
+   System.out.println(ref.carname);
+   System.out.println(ref.carmodel);
+   }
+}
+   
+class Sample{
+    String carname;
+    String carmodel;
+    //default constructor
+    
+    Sample(String carname,String carmodel){
+        this.carname=carname;
+        this.carmodel=carmodel;
+     System.out.println("Default constructor");
+   }
+}
